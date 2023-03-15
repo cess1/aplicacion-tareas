@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo1 from '../img/imagen_ia_1_2l.png';
 import logoHover from '../img/imagen_ia_12.png';
+import '../css/logo.css'
 
 function Logo() {
     const [isHovered, setIsHovered] = useState(false);
